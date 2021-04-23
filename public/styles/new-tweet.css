@@ -1,0 +1,57 @@
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+textarea {
+  border-color: #f4f1ec;
+  background-color: #f4f1ec;
+  font-size: large;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  border-bottom: solid #545149;
+  margin-bottom: 10px;
+}
+
+article p {
+  overflow-wrap: break-word;
+}
+
+label {
+    font-weight: 600;
+    color: #8c8989;
+    padding-top: 10px;
+}
+
+.counter {
+  font-family: 'Bungee', cursive;
+}
+
+button {
+  border: none;
+    color: white;
+    font-family: 'Bungee', cursive;
+    background-color: #4056A1;
+    font-size: medium;
+}
+
+.buttonCounter {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.validate {
+  margin-top: 1em;
+  display: none;
+}
+
+#error {
+  
+  font-family: 'Bungee';
+    display: flex;
+    font-family: 'Bungee';
+    justify-content: space-around;
+    color: #f54949;
+    border: solid;
+}

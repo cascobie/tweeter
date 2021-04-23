@@ -1,0 +1,59 @@
+article {
+  padding: 10px;
+  border: solid;
+  margin-bottom: 20px;
+}
+
+article header {
+  height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #f4f1ec;
+    background-image: none;
+}
+
+article p {
+  border-bottom: solid;
+    padding-bottom: 10px;
+    font-size: smaller;
+    font-weight: 600;
+    font-family: 'Source Sans Pro';
+}
+
+.name {
+  color: #545149;  
+}
+
+.handle {
+  color: #a9a9ca;
+  font-family: 'Source Sans Pro';
+}
+
+article footer {
+  display: flex;
+    justify-content: space-between;
+    font-size: small;
+    font-weight: 600;
+}
+
+.info {
+  color: #4056A1; 
+}
+
+article:hover {
+  box-shadow:  3px 5px 0px #a9a9ca
+  /* color: #a9a9ca; */
+}
+
+.fas.fa-flag:hover {
+  color: #ff0000a3;
+}
+
+.fas.fa-retweet:hover {
+  color: #ff0000a3;
+}
+
+.fas.fa-heart:hover {
+  color: #ff0000a3;
+}
