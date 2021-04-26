@@ -72,7 +72,7 @@ $(document).ready(function() {
     } else {
       $(".validate").slideUp();
       const form = $('form').serialize();
-      // console.log(form);
+      
       $.ajax( {
         type: 'POST',
         data: form,
@@ -80,6 +80,7 @@ $(document).ready(function() {
       })
       .then(function() {
         $('#tweet-text').val("");
+        $('.counter').val(140)
         loadTweets();
         
       })
@@ -98,4 +99,9 @@ $(document).ready(function() {
   loadTweets()
 
 
+  $("#composeTweet").click(function() {
+    $("textarea").focus();
+  });
+
 });
+
